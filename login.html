@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login page</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <div class="container">
+        <div class="leftside">
+            <div class="log-part">
+                <img src="/asserts/Logo.png" alt="">
+                <h1>Zap</h1>
+            </div>
+            <h1>Welcome Back !</h1>
+            <div class="login-container">
+                <h1>Login</h1>
+                <h3>Email</h3>
+                <input id="email" type="email" placeholder="Email*">
+                <br><span id="error-case-email"></span>
+                <h3>Password</h3>
+                <input id="password" type="password" placeholder="password*">
+                <br><span id="error-case-pass"></span>
+                <br><br>
+                <button type="submit" id="Login" onclick="userLogin()">Submit</button>
+                <p>New To Zap? <a href="register.html">Create Account</a></p>
+            </div>
+        </div>
+       <div class="rightside">
+       </div>
+    </div>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="register.js"></script>
+</body>
+</html>

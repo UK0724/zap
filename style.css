@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish&family=Poppins:wght@700&family=Roboto:wght@500&display=swap');
+*
+{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    background-color: #24252A;
+}
+
+body .container
+{
+    height: 100vh;
+    position: relative;
+}
+li,a,button
+{
+    font-family: 'Poppins',sans-serif;
+    font-size: 26px;
+    font-weight: 500;
+    color: #edf0f1;
+    text-decoration: none;
+}
+
+.para
+{
+    font-family: 'Poppins',sans-serif;
+    font-size: 26px;
+    font-weight: 500;
+    color: #edf0f1;
+    position: relative;
+    top: 150px;
+    left: 40px;
+}
+.para>a
+{
+    background-color: rgba(0, 136, 169, 1);
+}
+
+h1
+{
+    font-family: 'Poppins',sans-serif;
+    color: #0088a9;
+    font-size: 52px;
+}
+
+.top-page
+{
+    font-family: sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 3%;
+    
+}
+.logo
+{
+    cursor: pointer;
+}
+
+.logo-part div
+{
+    display: inline-block;
+    padding: 0px 0px;
+}
+
+.nav_links
+{
+    list-style: none;
+    position: relative;
+    left: 100px;
+}
+.nav_links li
+{
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav_links li a
+{
+    transition: all 0.3s ease 0s;
+}
+
+.nav_links li a:hover
+{
+    color: #0088a9;
+}
+
+button
+{
+    padding: 9px 25px;
+    background-color: rgba(0, 136, 169, 1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover
+{
+    background-color: rgba(0, 136, 169, 0.8);
+}
+
+.halfpageimage
+{
+    background: url('asserts/bg.jpg');
+    height: 50vh;
+    width: 100vw;
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    bottom: 0px;
+}

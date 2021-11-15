@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sighnup</title>
+    <link rel="stylesheet" href="register.css">
+</head>
+<body>
+    <div class="main">
+        <div class="sub">
+            <div class="left">
+                <div class="logo">
+                    <img src="asserts/Logo.png" alt="">&nbsp;&nbsp;&nbsp;
+                    <a href="index.html"><h1>Zap</h1></a>
+                </div>
+                <br><br><br>
+                <div id="signup">Sign up</div><br><br>
+                <input id="name"  type="text" placeholder="Name*"><br>
+                <span  id="error-case-name"> </span>
+                <br><br>
+                <input id="email" type="email" placeholder="Email*">
+                <br>
+                <span id="error-case-email"></span>
+                <br><br>
+                <input id="password" type="password" placeholder="Create password*">
+                <br>
+                <span id="error-case-pass"></span>
+                <br><br>
+                <button type="submit" onclick="getData()"><div id ='btn'>Sign up</div></button>
+                <br><br>
+                <div id="p">Already a member? <a href="login.html"> Sign in</a></div>
+            </div>
+            <div class="right">
+                <div class="s-right">
+                <div id='h1'>Cooking gone wrong?</div>
+                <div id="ord">Order food from restaurants near you.</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="register.js"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+</body>
+</html>

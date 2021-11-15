@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish&family=Poppins:wght@700&display=swap');
+
+
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container
+{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    position: relative;
+    padding: 50px;
+    background-color: #24252A;
+    color: #edf0f1;
+    font-family: 'Poppins';
+}
+.log-part
+{
+    display: flex;
+}
+.log-part>img{
+    height: 50px;
+    width: 20px;
+}
+.log-part>h1{
+    line-height: 50px;
+    padding: 10px;
+    font-family: 'poppins',sans-serif;
+    font-size: 50px;
+    color: #0088a9;
+    font-weight: bolder;
+}
+.leftside>h1{
+    font-size: 50px;
+    padding-top: 40px;
+    font-weight: bolder;
+    font-family: inherit;
+}
+.login-container>h1
+{
+    padding-top: 10px;
+    font-size: 40px;
+}
+.login-container>h3
+{
+    font-size: 30px;
+    padding-top: 40px;
+}
+.login-container>input
+{
+    width: 300px;
+    padding: 5px;
+    border: none;
+    border: solid #257378;
+}
+.login-container>button
+{
+    width: 300px;
+    padding: 5px;
+    background-color: #257378;
+    color: white;
+    text-align: center;
+    font-family: inherit;
+    font-size: 20px;
+    outline: none;
+    border: none;
+}
+.login-container>button>a
+{
+    text-decoration: none;
+    color: inherit;
+}
+.login-container>button:hover
+{
+    opacity: 0.90;
+    cursor: pointer;
+}
+.login-container>p
+{
+    padding-top: 10px;
+    color: #edf0f1;
+    font-weight: bolder;
+}
+p a{
+    background-color: rgba(0, 136, 169, 1);
+}
+
+.login-container>p>a
+{
+    text-decoration: none;
+    color: #edf0f1;
+    font-weight: bolder;
+}
+#error-case-email,#error-case-pass
+{
+    font-family: sans-serif;
+
+    padding-left: 10px;
+    color: red;
+    font-size: 15px;
+    font-weight: lighter;
+}
+.rightside
+{
+    width: 50vw;
+    height: 100vh;
+    background: blue;
+    position: absolute;
+    right: 0;
+    background-image: url('https://images.unsplash.com/photo-1565958011703-44f9829ba187?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=465&q=80');
+    background-repeat: no-repeat;
+    background-size: cover;
+    top: 0;
+}
+input:focus
+{
+    outline: none;
+}
+button
+{
+    padding: 9px 25px;
+    background-color: rgba(0, 136, 169, 1);
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    font-family: 'Roboto';
+    width: 330px;
+    height: 35px;
+    padding-left: 30px;
+    text-align: center;
+
+}
+button:hover
+{
+    background-color: rgba(0, 136, 169, 0.8);
+}
+
+h3
+{
+    font-size: 16px;
+}
+
