@@ -50,7 +50,7 @@ function addItemTOCart(title,img,price)
     {
         if(carItemsNames[i].innerHTML == title)
         {
-            alert('alredy added!')
+            alert('Item Alredy Added!')
             return
         }
     }
@@ -67,7 +67,7 @@ function addItemTOCart(title,img,price)
     cartitems.append(cartRow)
     cartRow.getElementsByClassName('btn-danger')[0].addEventListener('click',removeItem)
     cartRow.getElementsByClassName('cart-quantity-input')[0].addEventListener('change',quantityChanged)
-    alert("Item added!")
+    alert("Item Added!")
 }
 
 function removeItem(event)
